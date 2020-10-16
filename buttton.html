@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Background</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+ body{
+   background: url('image1.jpg');
+   background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.div1{
+    background-color: blue;
+    width:100px;
+    margin: auto;
+}
+
+.button{
+    margin: auto;
+    outline:none;
+    transition: all 1s;
+}
+
+.button:hover{
+    border: 2px solid red;
+    transform: scale(1.5);
+}
+
+.center{
+    text-align: center;
+}
+
+</style>
+
+</head>
+    <body>
+        <h1 style = "color:red;"class="text-uppercase center">lowercase </h1>
+        <h2 style = "color:red;"class="text-lowercase center"> UPPERCASE </h2>
+        <div class="div1">
+            <button type="button" class="btn btn-info button">Button</button>
+        </div>
+    </body>
+</html>
